@@ -31,3 +31,13 @@ for (let i = 0; i < authorizedEmails.length; i++) {
     }
 }
 
+// stampa un messaggio appropriato sull’esito del controllo.
+
+// -- SE la mail é presente all'interno dell'array stampo in pagina "User Verified. Loading..."
+if (emailValidation === true) {
+    console.log('User Verified. Loading...');
+
+    // -- ALTRIMENTI SE la mail non é presente stampo in pagina "Email not verified"
+} else {
+    console.log('Email not verified');
+}
