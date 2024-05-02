@@ -23,11 +23,19 @@ stampa un messaggio appropriato sull’esito del controllo.
 
 Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 
+//************Soluzione con array (anche no)************//
+
 -- Creo una variabile che contiene un array con i numeri da 1 a 6
 
 -- Utilizzo un randomizer per randomizzare da 0 a 5 la posizione da prendere che corrisponderá ad un valore da 1 a 6 per l'utente ed assegno il valore della posizione a una variabile userRoll
 
 -- Utilizzo un randomizer per randomizzare da 0 a 5 la posizione da prendere che corrisponderá ad un valore da 1 a 6 per il computer ed assegno il valore della posizione a una variabile computerRoll
+
+//************Soluzione semplice************//
+
+-- Utilizzo un randomizer per randomizzare da 1 a 6 e ne assegno il valore ad una variabile userRoll
+
+-- Utilizzo un randomizer per randomizzare da 1 a 6 e ne assegno il valore ad una variabile computerRoll
 
 Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
