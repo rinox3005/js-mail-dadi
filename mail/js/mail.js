@@ -19,10 +19,10 @@ console.log('Email used to access: ', userEmail)
 
 // -- confronto con un ciclo la mail appena inserita dall'utente con quelle presenti all'interno dell'array
 
-//verifica presenza email
+// -- creo una variabile booleana emailValidation per fare un ckeck del login e la setto su false
 let emailValidation = false;
 
-// check presenza email
+// -- confronto con un ciclo for la mail appena inserita dall'utente con quelle presenti all'interno dell'array
 for (let i = 0; i < authorizedEmails.length; i++) {
 
     if (userEmail === authorizedEmails[i]) {
@@ -33,11 +33,11 @@ for (let i = 0; i < authorizedEmails.length; i++) {
 
 // stampa un messaggio appropriato sull’esito del controllo.
 
-// -- SE la mail é presente all'interno dell'array stampo in pagina "User Verified. Loading..."
+// -- SE il valore di emailValidation é true stampo in console "User Verified. Loading..."
 if (emailValidation === true) {
     console.log('User Verified. Loading...');
 
-    // -- ALTRIMENTI SE la mail non é presente stampo in pagina "Email not verified"
+    // -- ALTRIMENTI é false e stampo in console "Email not verified"
 } else {
     console.log('Email not verified');
 }
